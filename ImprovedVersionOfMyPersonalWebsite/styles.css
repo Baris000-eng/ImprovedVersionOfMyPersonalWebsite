@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: century;
+    font: size 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 26px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+/*Home Part*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right:0;
+    background:url('hacker.jpeg') no-repeat center center/cover;
+    height: 840px;
+    width:100%;
+    z-index: -1;
+    opacity: .8;
+
+}
+.logos{
+    margin: 20px 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+   /* border: 1px solid white;*/
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.headings{
+    font-family: century;
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color:  white;
+    outline: none;
+    transition: .6s ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 6px white, 0 0 12px white, 0 0 18px white;
+    font-weight: bold;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+}
+
+#pic{
+    display:flex;
+}
+
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+
+#introduction{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+#introduction h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#porfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: mediumseagreen;
+    color: WHITE;
+    align-items: center;
+    padding: 20px;
+}
+
+#portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color:mediumseagreen;
+    
+}
+
+.por{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+
+#contactMe{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    color: WHITE;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+#contactMe h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color:mediumseagreen;
+    align-items: center;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+#experiences{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    color: WHITE;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#experiences h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color:blue;
+    text-align: center;
+    align-items: center;
+}
+
+.experience{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+
