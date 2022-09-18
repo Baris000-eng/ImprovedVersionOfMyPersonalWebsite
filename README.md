@@ -1,7 +1,7 @@
 # ImprovedVersionOfMyPersonalWebsite
 Improved Version Of My Personal Website
 
-- Technologies Used:
+Technologies Used:
 
 * Visual Studio Code
 * HTML
