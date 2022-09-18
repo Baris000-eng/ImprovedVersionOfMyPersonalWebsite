@@ -57,11 +57,11 @@
     position: absolute;
     top: 0;
     right:0;
-    background:url('hacker.jpeg') no-repeat center center/cover;
     height: 840px;
     width:100%;
     z-index: -1;
-    opacity: .8;
+    opacity: .7;
+    background:url('hacker.jpeg') no-repeat center center/cover;
 
 }
 .logos{
@@ -71,10 +71,10 @@
     display: flex;
     flex-direction: column;
    /* border: 1px solid white;*/
-    align-items: center;
     position: absolute;
-    top: 30%;
+    align-items: center;
     right: 10%;
+    top: 30%;
 }
 
 .headings{
@@ -127,20 +127,19 @@
     margin-bottom: 20px;
 }
 
-#porfolio{
+#portfolio{
     display: flex;
     flex-direction: column;
-    background-color: mediumseagreen;
+    background-color: yellowgreen;
     color: WHITE;
-    align-items: center;
     padding: 20px;
 }
 
 #portfolio h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    background-color:mediumseagreen;
-    
+    align-items: center;
+    text-align: center;
 }
 
 .por{
@@ -148,6 +147,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     box-sizing: border-box;
+    margin: 20px 10px;
 }
 
 
@@ -158,15 +158,16 @@
     color: WHITE;
     align-items: center;
     padding: 20px;
+    background-color: darkcyan;
     text-align: center;
 }
 
 #contactMe h2{
     font-size: 2rem;
     margin-bottom: 20px;
-    background-color:mediumseagreen;
     align-items: center;
     text-align: center;
+    
 }
 
 .contact{
@@ -188,10 +189,19 @@
     padding: 20px;
 }
 
+#certificates{
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    color: WHITE;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
 #experiences h2{
     font-size: 2rem;
     margin-bottom: 20px;
-    background-color:blue;
     text-align: center;
     align-items: center;
 }
@@ -204,5 +214,39 @@
     align-items: center;
     text-align: center;
 }
+
+.animate-charcter{
+	text-transform: uppercase;
+	background-image: linear-gradient(
+	-225deg,
+	#231557 0%,
+	#44107a 37%,
+	#ff1361 70%,
+	#fff800 100%
+	);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 2s linear infinite;
+	display: inline-block;
+	font-size: 190px;
+	}
+	
+	@keyframes textclip {
+	to {
+	background-position: 200% center;
+	}
+}
+
+#certificates h2 {
+    margin-bottom: 20px;
+}
+
+
 
 
